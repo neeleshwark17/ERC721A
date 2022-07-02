@@ -59,6 +59,7 @@ contract MetaSimba is ERC721A, Ownable {
     //     console.log("I will return owner all tokens");
     // }
 
+////--minting function  
     function createTokens(address contractAddress,string[] memory baseURIs) external payable onlyOwner
     {   
 
